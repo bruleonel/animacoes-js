@@ -27,6 +27,11 @@
     padding: 0.5rem;
 }
 
+.cabecalo-lista a {
+    text-decoration: none;
+    color: rgb(247, 240, 230);
+}
+
 .principal {
     display: flex;
     flex-direction: column;
