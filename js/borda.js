@@ -11,6 +11,7 @@ function desenhaQuadrado(cor, x, y) {
     pincel.strokeRect(x, y, 50, 50);
 }
 
-desenhaQuadrado("pink", 0, 0);
-desenhaQuadrado("rgb(200, 200, 300)", 0, 50);
-desenhaQuadrado("pink",0, 100);
+
+for (var x = 0; x < 600; x = x + 50) {
+    desenhaQuadrado("rgb(200, 200, 300)", x, 0);
+}
