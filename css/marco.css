@@ -40,32 +40,41 @@
     background-color: rgb(247, 240, 230);
 }
 
-.principal-titulo {
-    color: #00322B;
-    padding: 1rem;
+.principal-texto p {
+  text-align: justify;
+  padding: 2rem; 
+
 }
  .cards {
     display: flex;
     flex-direction: column;
+    align-items: center;
  } 
 
 .card {
     background-color: #2e716774;
     display: flex;
     flex-direction: column;
-    padding-top: 1rem;
-    margin: 1rem;;
+    padding: 1rem;
+    margin-top: 1rem;
     align-items: center;
-    max-width: 400px;
+    width: 320px;
 } 
 
-.card h3, h2{
-    padding: 1rem;
+h3, h2{
+    padding: 2rem;
+    
+    text-align: center;
 }
 
 .card p{
-    padding: 1rem;
+    padding: 20px;
     text-align: justify;
+    max-width: 300px;
+}
+
+iframe {
+   max-width: 300px;
 }
 
 @media screen and (min-width: 768px) {
@@ -81,13 +90,19 @@
         align-items: initial;
     }
     
- .cards {
+    .cards {
     flex-direction: row;
     justify-content: space-around;
  }  
 
-
-    .principal_complemnto-pagina {
-        height: 900px;
+    .card {
+        max-width: 350px;
+        height: 500px;
     }
+
+
+    iframe {
+        width: 370px;
+    }
+
 }
