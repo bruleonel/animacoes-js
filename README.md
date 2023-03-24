@@ -30,3 +30,11 @@ pincel.fillRect(0, 0, 600, 400);
 
 pincel.clearRect(0, 0, 600, 400);
 
+### Math.random();
+Gera números aleatórios entre 0 e 1 (grandes como: 0,123654789), pode ser usada junto com a função:
+### Math.floor();
+Função que arredonda o número.
+
+Exemplo de uso:
+
+return Math.floor(Math.random() * 500);
